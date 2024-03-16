@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\monic\\source\\repos\\webtest\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6258DE2B-893D-4894-96A4-C3897683BA8A}|webtest\\webtest.csproj|c:\\users\\monic\\source\\repos\\webtest\\webtest\\classes\\interagirpagina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6258DE2B-893D-4894-96A4-C3897683BA8A}|webtest\\webtest.csproj|solutionrelative:webtest\\classes\\interagirpagina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6258DE2B-893D-4894-96A4-C3897683BA8A}|webtest\\webtest.csproj|c:\\users\\monic\\source\\repos\\webtest\\webtest\\classes\\dados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6258DE2B-893D-4894-96A4-C3897683BA8A}|webtest\\webtest.csproj|solutionrelative:webtest\\classes\\dados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6258DE2B-893D-4894-96A4-C3897683BA8A}|webtest\\webtest.csproj|c:\\users\\monic\\source\\repos\\webtest\\webtest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6258DE2B-893D-4894-96A4-C3897683BA8A}|webtest\\webtest.csproj|solutionrelative:webtest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6258DE2B-893D-4894-96A4-C3897683BA8A}|webtest\\webtest.csproj|c:\\users\\monic\\source\\repos\\webtest\\webtest\\classes\\extrairdados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6258DE2B-893D-4894-96A4-C3897683BA8A}|webtest\\webtest.csproj|solutionrelative:webtest\\classes\\extrairdados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "InteragirPagina.cs",
+              "DocumentMoniker": "C:\\Users\\monic\\source\\repos\\webtest\\webtest\\Classes\\InteragirPagina.cs",
+              "RelativeDocumentMoniker": "webtest\\Classes\\InteragirPagina.cs",
+              "ToolTip": "C:\\Users\\monic\\source\\repos\\webtest\\webtest\\Classes\\InteragirPagina.cs",
+              "RelativeToolTip": "webtest\\Classes\\InteragirPagina.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T19:11:27.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dados.cs",
+              "DocumentMoniker": "C:\\Users\\monic\\source\\repos\\webtest\\webtest\\Classes\\Dados.cs",
+              "RelativeDocumentMoniker": "webtest\\Classes\\Dados.cs",
+              "ToolTip": "C:\\Users\\monic\\source\\repos\\webtest\\webtest\\Classes\\Dados.cs",
+              "RelativeToolTip": "webtest\\Classes\\Dados.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T17:23:55.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ExtrairDados.cs",
+              "DocumentMoniker": "C:\\Users\\monic\\source\\repos\\webtest\\webtest\\Classes\\ExtrairDados.cs",
+              "RelativeDocumentMoniker": "webtest\\Classes\\ExtrairDados.cs",
+              "ToolTip": "C:\\Users\\monic\\source\\repos\\webtest\\webtest\\Classes\\ExtrairDados.cs",
+              "RelativeToolTip": "webtest\\Classes\\ExtrairDados.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T15:58:09.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\monic\\source\\repos\\webtest\\webtest\\Program.cs",
+              "RelativeDocumentMoniker": "webtest\\Program.cs",
+              "ToolTip": "C:\\Users\\monic\\source\\repos\\webtest\\webtest\\Program.cs",
+              "RelativeToolTip": "webtest\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T21:44:21.932Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

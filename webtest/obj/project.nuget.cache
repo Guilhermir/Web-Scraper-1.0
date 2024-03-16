@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "ma+DHfONccvseSmpze8qtsWehPtdk2/2gius7Ke6Sx4aqnUW70LXy8xFf6hvFICOoN/hP1jTW48EkAqqzwptDw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\monic\\source\\repos\\webtest\\webtest\\webtest.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\monic\\.nuget\\packages\\dotnetseleniumextras.waithelpers\\3.11.0\\dotnetseleniumextras.waithelpers.3.11.0.nupkg.sha512",
+    "C:\\Users\\monic\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\monic\\.nuget\\packages\\selenium.support\\4.18.1\\selenium.support.4.18.1.nupkg.sha512",
+    "C:\\Users\\monic\\.nuget\\packages\\selenium.webdriver\\4.18.1\\selenium.webdriver.4.18.1.nupkg.sha512",
+    "C:\\Users\\monic\\.nuget\\packages\\selenium.webdriver.chromedriver\\122.0.6261.11100\\selenium.webdriver.chromedriver.122.0.6261.11100.nupkg.sha512"
+  ],
+  "logs": []
+}
