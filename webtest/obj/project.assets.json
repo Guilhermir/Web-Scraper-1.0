@@ -62,7 +62,7 @@
           "buildTransitive/Selenium.WebDriver.targets": {}
         }
       },
-      "Selenium.WebDriver.ChromeDriver/122.0.6261.11100": {
+      "Selenium.WebDriver.ChromeDriver/123.0.6312.5800": {
         "type": "package",
         "build": {
           "build/Selenium.WebDriver.ChromeDriver.targets": {}
@@ -147,10 +147,10 @@
         "selenium.webdriver.nuspec"
       ]
     },
-    "Selenium.WebDriver.ChromeDriver/122.0.6261.11100": {
-      "sha512": "lqzJXzFMPyFr+TTPIrvREEiF3mHYHSvzoFy3tLNpMc4dPMbEBu759v6lT1fhUeOQMkHRaxeDdnM3oADAHCw0+g==",
+    "Selenium.WebDriver.ChromeDriver/123.0.6312.5800": {
+      "sha512": "ACz00kmOxA6TT0bPE8vgvEsstO5CIA0cA+KG4EYBKFP2/KPMee8doGlINVK9NByJ5zkH0Z6pff6m3UNgZPH1Aw==",
       "type": "package",
-      "path": "selenium.webdriver.chromedriver/122.0.6261.11100",
+      "path": "selenium.webdriver.chromedriver/123.0.6312.5800",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -167,7 +167,7 @@
         "driver/win32/LICENSE.chromedriver",
         "driver/win32/chromedriver.exe",
         "nupkg-icon.png",
-        "selenium.webdriver.chromedriver.122.0.6261.11100.nupkg.sha512",
+        "selenium.webdriver.chromedriver.123.0.6312.5800.nupkg.sha512",
         "selenium.webdriver.chromedriver.nuspec"
       ]
     }
@@ -177,23 +177,28 @@
       "DotNetSeleniumExtras.WaitHelpers >= 3.11.0",
       "Selenium.Support >= 4.18.1",
       "Selenium.WebDriver >= 4.18.1",
-      "Selenium.WebDriver.ChromeDriver >= 122.0.6261.11100"
+      "Selenium.WebDriver.ChromeDriver >= 123.0.6312.5800"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\monic\\.nuget\\packages\\": {}
+    "C:\\Users\\gilso\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\monic\\source\\repos\\webtest\\webtest\\webtest.csproj",
-      "projectName": "webtest",
-      "projectPath": "C:\\Users\\monic\\source\\repos\\webtest\\webtest\\webtest.csproj",
-      "packagesPath": "C:\\Users\\monic\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\monic\\source\\repos\\webtest\\webtest\\obj\\",
+      "projectUniqueName": "D:\\Projetos\\Web-Scraper-1.0-master\\webtest\\WebScraper.csproj",
+      "projectName": "WebScraper",
+      "projectPath": "D:\\Projetos\\Web-Scraper-1.0-master\\webtest\\WebScraper.csproj",
+      "packagesPath": "C:\\Users\\gilso\\.nuget\\packages\\",
+      "outputPath": "D:\\Projetos\\Web-Scraper-1.0-master\\webtest\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\monic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\gilso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -201,6 +206,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -238,7 +244,7 @@
           },
           "Selenium.WebDriver.ChromeDriver": {
             "target": "Package",
-            "version": "[122.0.6261.11100, )"
+            "version": "[123.0.6312.5800, )"
           }
         },
         "imports": [
@@ -257,7 +263,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

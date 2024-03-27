@@ -7,9 +7,11 @@ using WebScraper.Classes;
 
 namespace WebScraper.Helpers
 {
+    /// Classe responsável por extrair dados da página.
     public static class ExtrairDados
     {
-        public static List<Dados> ExtracaoDados(IWebDriver driver)
+        /// Verifica se o botão proxima pagina está habilitado e muda a pagina.
+        public static List<Dados> MudarPagina(IWebDriver driver)
         {
             var listaDados = new List<Dados>();
 
@@ -29,36 +31,34 @@ namespace WebScraper.Helpers
             return listaDados;
         }
 
+        /// Extrai dados da página atual e retorna uma lista de objetos Dados.
         public static List<Dados> ExtrairDadosPaginaAtual(IWebDriver driver)
         {
             var listaDados = new List<Dados>();
 
-            Thread.Sleep(2000);
+            Thread.Sleep(4000);
 
             var mytable = driver.FindElement(By.XPath("//*[@id=\"lista\"]/tbody"));
 
             var rows_table = mytable.FindElements(By.TagName("tr"));
 
-            int rows_count = rows_table.Count();
-
-            for (int row_index = 0; row_index < rows_count; row_index++)
+            foreach (var row in rows_table)
             {
-                List<IWebElement> columnsRow = rows_table[row_index].FindElements(By.TagName("td")).ToList();
+                var columnsRow = row.FindElements(By.TagName("td")).ToList();
                 var dados = SalvarDados(columnsRow);
                 listaDados.Add(dados);
 
-                int columnsCount = columnsRow.Count;
-
-                for (int column = 0; column < columnsCount; column++)
+                foreach (var column in columnsRow)
                 {
-                    string cellText = columnsRow[column].Text;
-                    Console.WriteLine($"Valor da célula da linha {row_index} e coluna {column} é {cellText}");
+                    string cellText = column.Text;
+                    Console.WriteLine($"Valor da célula: {cellText}");
                 }
             }
 
             return listaDados;
         }
 
+        /// Cria um objeto Dados a partir das colunas.
         private static Dados SalvarDados(IReadOnlyList<IWebElement> colunas)
         {
             return new Dados

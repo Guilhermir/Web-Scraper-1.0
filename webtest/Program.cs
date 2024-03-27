@@ -10,26 +10,34 @@ namespace WebScraper.Tests
     {
         static void Main(string[] args)
         {
-            IWebDriver driver = new OpenQA.Selenium.Chrome.ChromeDriver();
+            try
+            {
+                using (IWebDriver driver = new OpenQA.Selenium.Chrome.ChromeDriver())
+                {
+                    Console.WriteLine("Digite o CNPJ: (ex: **.***.***/****-**):");
+                    string cnpj = Console.ReadLine();
 
-            Console.WriteLine("Por favor, digite o formato do CNPJ (ex: **.***.***/****-**):");
-            string cnpj = Console.ReadLine();
+                    InteragirPagina.AcessarURL(driver);
 
-            InteragirPagina.AcessarURL(driver);
+                    InteragirPagina.ClicarLimpar(driver);
 
-            InteragirPagina.ClicarLimpar(driver);
+                    InteragirPagina.ClicarFornecedor(driver);
 
-            InteragirPagina.ClicarFornecedor(driver);
+                    InteragirPagina.PreencherEClicar(driver, cnpj);
 
-            InteragirPagina.PreencherEClicar(driver, cnpj);
+                    InteragirPagina.ClicarAdicionar(driver);
 
-            InteragirPagina.ClicarAdicionar(driver);
+                    InteragirPagina.ClicarConsultar(driver);
 
-            InteragirPagina.ClicarConsultar(driver);
-
-            ExtrairDados.ExtracaoDados(driver);
-
+                    ExtrairDados.MudarPagina(driver);
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Ocorreu um erro: " + ex.Message);
+            }
         }
     }
 }
+
 
